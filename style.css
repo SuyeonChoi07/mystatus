@@ -32,7 +32,7 @@ body {
 }
 
 .blinking {
-    animation: blink 3s infinite;
+    animation: blink 5s infinite;
 }
 
 @keyframes blink {
@@ -80,19 +80,24 @@ body {
     width: 40vw;
     height: 28vh;
     font-size: 2.5vh;
-    line-height: 1.5em;
+    line-height: 0.8em;
 }
 
 #prog > .box {
     height: 15vh;
+    display: block;
 }
+ 
+/* .progline {
+    display: inline-flex;
+} */
 
 .progsetting {
     float: right;
 }
- 
+
 .progress {
-     appearance: none;
+    appearance: none;
  }
 
 .progress::-webkit-progress-bar {
