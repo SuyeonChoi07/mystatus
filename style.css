@@ -169,6 +169,7 @@ img {
 
 #memo > .box {
     display: inline-flex;
+    height: 25vh;
 }
 
 .memo-form {
