@@ -77,8 +77,9 @@ body {
 
 /* ------- progress ------- */
 #prog {
+    margin-top: 4vh;
     width: 40vw;
-    height: 28vh;
+    height: 23vh;
     font-size: 2.5vh;
     line-height: 0.8em;
 }
@@ -87,10 +88,10 @@ body {
     height: 15vh;
     display: block;
 }
- 
-/* .progline {
-    display: inline-flex;
-} */
+
+button {
+    height: 3vh;
+}
 
 .progsetting {
     float: right;
